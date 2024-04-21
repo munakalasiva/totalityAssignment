@@ -1,0 +1,35 @@
+.list-item {
+  list-style-type: none;
+  margin: 15px;
+}
+.image {
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.adjust {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-btn {
+  margin-top: 40px;
+  margin-left: 30px;
+  background-color: #fa9898;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,59 @@
+.properties {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #0826e6;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  justify-content: center;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.web-img {
+  height: 120px;
+  width: 100px;
+  display: flex;
+  align-self: flex-start;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  padding-top: 20px;
+  font-family: "san-serif";
+  font-size: 35px;
+}
+
+@media screen and (max-width: 991px) {
+  .properties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.load {
+  font-size: 30px;
+}
