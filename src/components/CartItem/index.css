@@ -1,0 +1,37 @@
+.remove-btn {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: row;
+  padding-top: 5px;
+  font-size: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cart-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vw;
+  padding-right: 20px;
+  background-color: #e8e8e8;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.price {
+  font-size: 25px;
+}
+
+.cart-title {
+  font-size: 25px;
+}

@@ -13,6 +13,12 @@
   align-items: center;
 }
 
+.header {
+  display: flex;
+  align-self: flex-end;
+  padding-right: 100px;
+}
+
 .btn {
   background-color: #0826e6;
   color: white;
@@ -21,9 +27,7 @@
   justify-content: center;
   border: none;
   padding: 10px;
-  display: flex;
-  align-self: flex-end;
-  margin-right: 100px;
+  margin-left: 50px;
   cursor: pointer;
 }
 
@@ -43,6 +47,16 @@
   padding-top: 20px;
   font-family: "san-serif";
   font-size: 35px;
+}
+
+.nav-link {
+  font-size: 20px;
+  display: flex;
+  align-self: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background-color: #4c89e4;
 }
 
 @media screen and (max-width: 991px) {

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
-import PropertyCard from "/home/theia/totality-frontend/src/components/PropertyCard";
+import PropertyCard from "../PropertyCard";
+
+import { Link } from "react-router-dom";
 
 import Cookies from "js-cookie";
 
@@ -59,9 +61,14 @@ class PropertyListings extends Component {
           />
           <h1 className="heading">TORTALITY RENTAL</h1>
         </div>
-        <button className="btn" onClick={this.onClickLogout}>
-          Logout
-        </button>
+        <div className="header">
+          <Link to="/cart" className="nav-link">
+            Cart
+          </Link>
+          <button className="btn" onClick={this.onClickLogout}>
+            Logout
+          </button>
+        </div>
         <ul className="properties">
           {properties.map((item) => (
             <PropertyCard key={item.id} item={item} />

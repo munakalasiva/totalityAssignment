@@ -1,0 +1,14 @@
+.para {
+  font-size: 20px;
+}
+.che-btn {
+  background-color: #5eb8e8;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+}
+.align-summary {
+  padding-left: 30px;
+}
